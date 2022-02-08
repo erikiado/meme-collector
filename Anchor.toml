@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+meme_collector = "6pSWkdAc67oEMBn4AGHt4oNNHD5K4Pm7h6GKMHoEV4wb"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/nu9ve/.config/solana/id.json"
+
+[scripts]
+test = "node tests/m-collector.js"
